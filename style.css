@@ -1,0 +1,137 @@
+html{
+    /* 1 rem  =  16 px */
+    font-size: 62.5%;  /* for making  1rem = 10px and  62.5% = 10 px*/ 
+    /* font-size: 10px; = 62.5%
+       font-size: 1rem ; = 62.5% */
+    
+}
+
+body{
+    background-color: white;   
+    font-size: 2.2rem;
+    
+}
+header>section{
+    
+    justify-content: center;
+    align-items: center;
+      
+    padding: 2rem 0rem;
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        gap: 10rem;  
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: .2rem;
+        padding-right: .5rem;
+
+        
+    
+}
+
+header >section> h2, header>section>p{
+    
+    padding-left: 0rem;
+    padding-right: 15rem;
+
+}
+header>p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    
+}
+
+
+
+
+div >  h1{
+    color:rgb(44, 132, 233);
+    padding-left: .4rem;
+    
+}
+
+
+#content{
+    
+    align-items: justify;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem 1rem .5rem .5rem;
+    
+    margin-left: 70rem ;
+
+    font-size: x-large;
+    font-family: sans-serif;
+
+
+    
+    text-align-last: left; 
+    
+    
+}
+
+.first{
+    
+    
+    padding-left: .4rem ;          /*top right bottom left */
+    padding-bottom: .5rem;
+}
+.second{
+    
+    
+    padding-left: .4rem;
+    padding-bottom: 1.5rem;
+}
+.third{
+    
+
+    padding-left: .4rem;
+    padding-bottom: 1rem;
+}
+.fourth{
+    
+
+    padding-left: .4rem;
+    padding-bottom: 1rem;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40rem;  
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 15rem;
+    padding-right: .5rem;
+}
+.bottom img{
+    width: 20rem;
+    max-width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+footer{
+    text-align: center;
+    margin: 3rem 2rem;
+    padding-right: .2rem;
+    padding-left: 10rem;
+}
+
+/* responsive code */
+@media(max-width:998px){
+    html{
+        font-size:55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size:45%;
+    }
+}
